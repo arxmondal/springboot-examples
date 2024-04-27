@@ -32,7 +32,6 @@ public class ProductService {
         if (productToDelete != null) {
             dynamoDBMapper.delete(productToDelete);
         } else {
-            // Handle case where product with the ID is not found (optional)
         }
     }
 
